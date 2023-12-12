@@ -1,0 +1,103 @@
+{
+    "name": "Berkley Light",
+    "colors": {
+        "editor.background": "#f7f3ee",
+        "editor.foreground": "#605a52",
+        "scrollbar.shadow": "#ffffff00",
+
+        "statusBarItem.remoteBackground": "#CCC7C3",
+        "statusBarItem.remoteForeground": "#4A4947",
+
+        "sideBar.background": "#DFDBD5",
+        "sideBar.foreground": "#000",
+        "sideBarSectionHeader.background": "#ded9d5",
+        "list.inactiveSelectionBackground": "#EFEDEB",
+        "list.activeSelectionBackground": "#EFEDEB",
+        "list.activeSelectionForeground": "#000",
+        "list.focusOutline": "#ffffff00",
+        "list.hoverBackground": "#E8E6E2",
+
+        "activityBar.background": "#000", // @TODO
+        "statusBar.background": "#CCC7C3",
+        "statusBar.foreground": "#4A4947",
+        "titleBar.activeBackground": "#DFDBD5",
+        "titleBar.inactiveBackground": "#DFDBD5",
+
+        "editorGroupHeader.tabsBorder": "#f7f3ee",
+		"editorGroupHeader.tabsBackground": "#DFDBD5",
+		"tab.inactiveBackground": "#DFDBD5",
+		"tab.border": "#DFDBD5",
+
+        // editor
+        "editorLineNumber.foreground": "#ADA79F",
+        "editor.lineHighlightBackground": "#EDE8E2",
+
+        // git
+
+        // selection and search
+
+        // command palette
+    },
+    "tokenColors": [
+        {
+			"name": "Keywords",
+			"scope": [
+				"keyword",
+				"storage",
+				"meta.tag",
+			],
+			"settings": {
+				"foreground": "#00708C"
+			}
+		},
+
+        {
+            "name": "Strings",
+            "scope": [
+                "string",
+            ],
+            "settings": {
+                "foreground": "#2A8C00"
+            }
+        },
+
+        {
+            "name": "Consts",
+            "scope": [
+                "constant",
+                "number"
+            ],
+            "settings": {
+                "foreground": "#62008C"
+            }
+        },
+
+        {
+            "name": "Comments",
+            "scope": [
+                "comment",
+                "punctuation.definition.comment"
+            ],
+            "settings": {
+                "foreground": "#8C1C00",
+            }
+        },
+
+        {
+            "name": "Overrides",
+            "scope": [
+                "keyword.operator",
+				"keyword.other.this",
+                "meta.function-call entity.name.function",
+				"meta.method-call entity.name.function",
+				"entity.name.function.decorator",
+                "support.type.property-name.json",
+				"entity.other.attribute-name",
+                "constant.other.caps"
+            ],
+            "settings": {
+                "foreground": "#605a52"
+            }
+        }
+    ]
+}

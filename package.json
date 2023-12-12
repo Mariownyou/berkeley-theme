@@ -12,6 +12,11 @@
   "contributes": {
     "themes": [
       {
+        "label": "Berkley Light",
+        "uiTheme": "vs",
+        "path": "./themes/light-color-theme.json"
+      },
+      {
         "label": "Berkley Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/dark-color-theme.json"
