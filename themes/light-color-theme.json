@@ -40,7 +40,14 @@
         "quickInput.background": "#DFDBD5",
         "quickInput.foreground": "#63615F",
         "quickInputList.focusBackground": "#EAE8E4",
-        "focusBorder": "#00000000"
+        "focusBorder": "#00000000",
+
+        // terminal panel
+        "panelSectionHeader.background": "#00000000",
+        "panel.border": "#ADA79F",
+
+        // split view
+        "editorGroup.border": "#DFDBD5"
     },
     "tokenColors": [
         {
