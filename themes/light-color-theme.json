@@ -47,7 +47,9 @@
         "panel.border": "#ADA79F",
 
         // split view
-        "editorGroup.border": "#DFDBD5"
+        "editorGroup.border": "#DFDBD5",
+        // brackets
+        "editorBracketHighlight.foreground1": "#605a52",
     },
     "tokenColors": [
         {
