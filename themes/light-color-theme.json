@@ -37,6 +37,10 @@
         // selection and search
 
         // command palette
+        "quickInput.background": "#DFDBD5",
+        "quickInput.foreground": "#63615F",
+        "quickInputList.focusBackground": "#EAE8E4",
+        "focusBorder": "#00000000"
     },
     "tokenColors": [
         {
