@@ -111,6 +111,16 @@
             "settings": {
                 "foreground": "#605a52"
             }
-        }
+        },
+
+        // Markdown
+        { "scope": "markup.italic", "settings": { "fontStyle": "italic" } },
+        { "scope": [ "meta.link", "markup.underline.link" ], "settings": { "foreground": "#00708C" } },
+        { "scope": [ "string.other.link.title.markdown", "string.other.link.description.markdown" ], "settings": { "foreground": "#605a52" } },
+        { "scope": "markup.heading", "settings": { "foreground": "#00708C" } },
+        { "scope": "markup.bold", "settings": { "fontStyle": "bold" } },
+        { "scope": "markup.underline", "settings": { "fontStyle": "underline" } },
+        { "scope": "markup.quote", "settings": { "foreground": "#62008C" } },
+        { "scope": "markup.inline.raw", "settings": { "fontStyle": "", "foreground": "#8C1C00" } }
     ]
 }
