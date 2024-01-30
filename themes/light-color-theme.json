@@ -1,55 +1,66 @@
 {
     "name": "Berkley Light",
+    "vars": {
+        "blue": "#4B83CD",
+        "cyan": "#00708C",
+
+        "sidebar": "#E6E6E6",
+        "statusBar": "#D1D1D1",
+        "statusBarFg": "#4D4D4D",
+        "activeSelection": "#F3F3F3",
+    },
     "colors": {
-        "editor.background": "#f7f3ee",
-        "editor.foreground": "#605a52",
+        "editor.background": "#fff",
+        "editor.foreground": "#1F2328",
         "scrollbar.shadow": "#ffffff00",
 
-        "statusBarItem.remoteBackground": "#CCC7C3",
-        "statusBarItem.remoteForeground": "#4A4947",
+        "statusBarItem.remoteBackground": "statusBar",
+        "statusBarItem.remoteForeground": "statusBarFg",
 
-        "sideBar.background": "#DFDBD5",
+        "sideBar.background": "sidebar",
         "sideBar.foreground": "#000",
-        "sideBarSectionHeader.background": "#ded9d5",
-        "list.inactiveSelectionBackground": "#EFEDEB",
-        "list.activeSelectionBackground": "#EFEDEB",
+        "sideBarSectionHeader.background": "sidebar",
+        "list.inactiveSelectionBackground": "activeSelection",
+        "list.activeSelectionBackground": "activeSelection",
         "list.activeSelectionForeground": "#000",
         "list.focusOutline": "#ffffff00",
-        "list.hoverBackground": "#E8E6E2",
+        "list.hoverBackground": "#EEEEEE",
+        "tab.activeBorder": "#fff",
 
         "activityBar.background": "#000", // @TODO
-        "statusBar.background": "#CCC7C3",
-        "statusBar.foreground": "#4A4947",
-        "titleBar.activeBackground": "#DFDBD5",
-        "titleBar.inactiveBackground": "#DFDBD5",
+        "statusBar.background": "statusBar",
+        "statusBar.foreground": "statusBarFg",
+        "titleBar.activeBackground": "sidebar",
+        "titleBar.inactiveBackground": "sidebar",
 
-        "editorGroupHeader.tabsBorder": "#f7f3ee",
-		"editorGroupHeader.tabsBackground": "#DFDBD5",
-		"tab.inactiveBackground": "#DFDBD5",
-		"tab.border": "#DFDBD5",
+        "editorGroupHeader.tabsBorder": "#00000000",
+		"editorGroupHeader.tabsBackground": "sidebar",
+		"tab.inactiveBackground": "sidebar",
+		"tab.border": "sidebar",
 
         // editor
-        "editorLineNumber.foreground": "#ADA79F",
-        "editor.lineHighlightBackground": "#EDE8E2",
+        "editorLineNumber.foreground": "#D0D3D6",
+        "editorLineNumber.activeForeground": "#1F2328",
+        "editor.lineHighlightBackground": "#F4F6F8",
 
         // git
 
         // selection and search
 
         // command palette
-        "quickInput.background": "#DFDBD5",
-        "quickInput.foreground": "#63615F",
-        "quickInputList.focusBackground": "#EAE8E4",
+        "quickInput.background": "sidebar",
+        "quickInput.foreground": "#333333",
+        "quickInputList.focusBackground": "#EFEFEF",
         "focusBorder": "#00000000",
 
         // terminal panel
         "panelSectionHeader.background": "#00000000",
-        "panel.border": "#ADA79F",
+        "panel.border": "statusBar",
 
         // split view
-        "editorGroup.border": "#DFDBD5",
+        "editorGroup.border": "sidebar",
         // brackets
-        "editorBracketHighlight.foreground1": "#605a52",
+        "editorBracketHighlight.foreground1": "#1F2328",
     },
     "tokenColors": [
         {
@@ -60,7 +71,7 @@
 				"meta.tag",
 			],
 			"settings": {
-				"foreground": "#00708C"
+				"foreground": "blue"
 			}
 		},
 
@@ -115,9 +126,9 @@
 
         // Markdown
         { "scope": "markup.italic", "settings": { "fontStyle": "italic" } },
-        { "scope": [ "meta.link", "markup.underline.link" ], "settings": { "foreground": "#00708C" } },
+        { "scope": [ "meta.link", "markup.underline.link" ], "settings": { "foreground": "blue" } },
         { "scope": [ "string.other.link.title.markdown", "string.other.link.description.markdown" ], "settings": { "foreground": "#605a52" } },
-        { "scope": "markup.heading", "settings": { "foreground": "#00708C" } },
+        { "scope": "markup.heading", "settings": { "foreground": "blue" } },
         { "scope": "markup.bold", "settings": { "fontStyle": "bold" } },
         { "scope": "markup.underline", "settings": { "fontStyle": "underline" } },
         { "scope": "markup.quote", "settings": { "foreground": "#62008C" } },

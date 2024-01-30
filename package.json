@@ -14,7 +14,7 @@
       {
         "label": "Berkley Light",
         "uiTheme": "vs",
-        "path": "./themes/light-color-theme.json"
+        "path": "./out/light-color-theme.json"
       },
       {
         "label": "Berkley Dark",
